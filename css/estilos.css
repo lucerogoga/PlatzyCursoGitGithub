@@ -32,15 +32,18 @@ a.logo:focus {
 }
 
 main {
-  display: flex;
   justify-content: center;
   margin-top: 150px;
 }
 #container {
-  width: 70%;
+  display: block;
   padding: 1em;
-  text-align: left;
+  align-content: center;
   border: 1px solid plum;
+  margin: 10px;
+  margin-right: 400px;
+  margin-left: 400px;
+  text-align: center;
 }
 
 .footer {
